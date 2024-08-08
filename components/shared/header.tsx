@@ -16,16 +16,16 @@ export const Header: React.FC<iHeader> = ({className}) => {
     return (
         <header className={cn('border border-b', className)}>
             <Container>
-                <div className={'flex justify-between items-center py-8'}>
-                    <div className={'flex items-center gap-3'}>
+                <div className={'flex container justify-between items-center py-8 gap-9 flex-col sm:flex-row'}>
+                    <div className={'  flex items-center gap-3'}>
                         <Image src={'/logo.png'} alt={'logo'} width={35} height={35 }/>
                         <div className={'flex flex-col '}>
                             <h2 className={'text-2xl uppercase font-black'}>Next pizza</h2>
                             <p className={'text-sm uppercase text-gray-400 leading-3'}>вкуснее уже некуда</p>
                         </div>
                     </div>
-                    <div>
-                        <Input placeholder={'поиск пиццы'} className={'bg-gray-100'} />
+                    <div className={'flex-1'}>
+                        <Input placeholder={'поиск пиццы'} className={'bg-gray-100 '} />
                     </div>
                     <div className={'flex items-center gap-3'}>
                         <Button variant={'outline'} className={'flex items-center gap-1'}>
