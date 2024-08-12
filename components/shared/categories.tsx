@@ -12,7 +12,6 @@ const cats = ["Пиццы", "Комбо", "Закуски", "Коктейли", 
 export const Categories: React.FC<Props> = ({className}) => {
     const [activeIndex, setActiveIndex] = useState(0)
 
-
     return (
         <div className={cn('inline-flex gap-1 p-1 rounded-2xl bg-gray-50 ', className)}>
             {cats.map((el, i) => (
