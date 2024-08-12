@@ -4,7 +4,7 @@ import {ArrowDownUp} from "lucide-react";
 
 interface Props {
     className?: string
-};
+}
 
 export const SortPopup: React.FC<Props> = ({className}) => {
     return (

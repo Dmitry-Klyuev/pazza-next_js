@@ -6,7 +6,7 @@ import {Container} from "@/components/shared/container";
 
 interface Props {
     className?: string
-};
+}
 
 export const TopBar: React.FC<Props> = ({className}) => {
     return (
