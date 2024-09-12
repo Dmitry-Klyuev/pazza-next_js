@@ -23,7 +23,7 @@ export default function Home() {
                     <div className={'flex-1'}>
                         <div className={'flex flex-col gap-16'}>
                             Список товаров
-                            <ProductCard/>
+                            <ProductCard name={'Сырный цыпленок'} id={1} imageUrl={'pizza1.png'} price={395}/>
                         </div>
                     </div>
 
