@@ -12,7 +12,6 @@ interface Props {
     imageUrl: string
     name: string
     price: number
-
 }
 
 export const ProductCard: React.FC<Props> = ({className, id, name, price, imageUrl}) => {
